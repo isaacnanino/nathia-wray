@@ -214,6 +214,32 @@ footer .container p:is(:hover, :focus-visible) {
 }
 
 
+.song-container {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.song-container p:first-child {
+    display: inline-block;
+    margin-inline: auto;
+    text-align: center;
+    margin-block: 15px;
+    border: 1px solid transparent;
+    padding: 10px;
+    background-color: rgb(164, 192, 39);
+    border-radius: 7px;
+    color: rgb(58, 22, 2);
+}
+
+
+.song-container p:last-child {
+    margin-block-end: 20px;
+}
+
+
+
 /** Media Queries */
 
 @media (min-width: 486px) {
